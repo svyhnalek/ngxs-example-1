@@ -1,0 +1,10 @@
+<div class="empty">
+  <h1>Counter</h1>
+  <h3>{{counter1$ | async}}</h3>
+  <!-- <h3>{{counter1$ | async}}</h3> -->
+  <div class="empty-action">
+    <button (click)="decrement()" class="btn btn-primary button-left">-</button>
+    <button (click)="increment()" class="btn btn-primary button-right">+</button>
+    <button (click)="reset()" class="btn button-right">C</button>
+  </div>
+</div>
